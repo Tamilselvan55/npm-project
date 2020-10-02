@@ -44,18 +44,23 @@ header>div {
 }
 
 #button {
-    border: 1 px solid black;
+    border: 1px solid black;
     color: white;
     background-color: black;
     padding: 5px;
+    height: 35px;
     cursor: pointer;
 }
 
 #button2 {
+    display: flex;
+    align-items: center;
     border: 0.5px solid black;
     color: black;
     background-color: white;
-    padding: 5px;
+    padding:5px;
+    height: 35px;
+    width:80px;
     cursor: pointer;
 }
 
@@ -64,6 +69,8 @@ header>div {
     color: black;
     background-color: white;
     padding: 5px;
+    height: 35px;
+    width:80px;
     cursor: pointer;
 }
 
@@ -72,7 +79,23 @@ header>div {
     justify-content: space-between;
     margin: 10px;
 }
-
+#sec {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/background2.png");
+    height: 250px;
+    justify-content: center;
+    padding: 35px;
+    color: white;
+    align-items: center;
+    margin: 15px;
+}
+.sec1{
+    height: 450px;     
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #section2 {
     display: flex;
     flex-direction: column;
@@ -94,6 +117,25 @@ header>div {
 
 .s {
     font-size: 15px;
+  
+    
+}
+.s2 {
+    font-size: 15px;
+  
+    
+}
+.s1 {
+    font-size: 15px;
+    display: flex;
+    
+   
+  align-items: center;
+   padding: 45px;
+   margin: 15px;
+   
+  
+    
 }
 
 .break {
@@ -110,28 +152,35 @@ header>div {
     align-items: center;
     margin: 15px;
 }
-
+#section4 img{
+    margin: 10px;
+}
 #section4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px;
+    padding: 30px;
     color: black;
+
     align-items: center;
-    margin: 15px;
+    margin: 20px;
+}
+#section4 p{
+    font-weight: 600;
 }
 
 #section4 div div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: white;
     color: black;
     height: 200px;
     width: 200px;
-    text-align: center;
+    margin: 20px;
+    
     flex-direction: column;
-    border-radius: 10px;
+    border-radius:30px;
 }
 
 #section4 div {
@@ -139,9 +188,19 @@ header>div {
 }
 
 #section4 button {
+    
+    background-color: white;
+    text-align: center;
     border-radius: 15px;
     padding: 5px;
+    margin: 10px;
+
 }
+
+
+
+
+
 
 #section5 {
     display: flex;
@@ -154,7 +213,15 @@ header>div {
     margin: 15px;
 }
 
-#section6 {
+#section6  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+#section7  {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,7 +234,17 @@ header>div {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 0.5em;
     line-height: 3;
+    list-style: none;
+}
+#footer ul li{
+    display: flex;
+   flex-direction: column;
+   justify-content:left;
+   
+    font-size: 6em
+    ;
 }
 
 #footer div div {
@@ -176,6 +253,8 @@ header>div {
     align-items: center;
     flex-direction: column;
     padding: 25px;
+    font-style: 1em;
+    list-style: none;
 }
 
 h4 {
